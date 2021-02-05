@@ -4,6 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <style>
 	body {
 		font-family: "Times New Roman", Georgia, Serif;
@@ -28,10 +30,10 @@
 		<div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
 			<a href="#home" class="w3-bar-item w3-button">DeVAULT LAB</a>
 			<div class="w3-right w3-hide-small">
-				<a href="#people" class="w3-bar-item w3-button">People</a>
-				<a href="#research" class="w3-bar-item w3-button">Research</a>
-				<a href="#news" class="w3-bar-item w3-button">News</a>
-				<a href="#contact" class="w3-bar-item w3-button">Contact</a>
+				<a href="people.html" class="w3-bar-item w3-button">People</a>
+				<a href="research.html" class="w3-bar-item w3-button">Research</a>
+				<a href="index.html#news" class="w3-bar-item w3-button">News</a>
+				<a href="contact.html" class="w3-bar-item w3-button">Contact</a>
 			</div>
 		</div>
 	</div>
@@ -39,7 +41,7 @@
 	<!-- Header -->
 
 	<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
-		<img class="w3-image" src="./images/home.jpg" alt="home" width="1600" height="800">
+		<img class="w3-image" src="./images/home.jpg" alt="home" width="100%" height=auto>
 		<div class="w3-display-bottomleft w3-padding-large">
 			<h1 style="color: white; opacity: 1"><b>DeVAULT WILDLIFE LAB</b></h1>
 			<p style="color: white;">at University of Georgia&mdash;Savannah River Ecology Laboratory</p>
@@ -50,133 +52,39 @@
 
 	<div class="w3-content">
 
-		<!-- About Section -->
+		<!-- What We Do -->
 
-		<div class="w3-row w3-padding-64" id="about">
+		<div class="w3-row w3-padding-64" id="what">
 			<div class="w3-col m6 w3-padding-large w3-hide-small">
-				<img src="./images/about.jpg" class="w3-round w3-image w3-opacity-min" alt="about" width="100%"
-					height="auto">
+				<img src="./images/about.jpg" class="w3-round w3-image w3-opacity-min" alt="what" width="100%" height="auto">
 			</div>
 			<div class="w3-col m6 w3-padding-large">
-				<h1 class="w3-center">Our Interests</h1>
-				<p class="w3-large">We apply interdisciplinary field and laboratory approaches to develop science-based
-					solutions to wildlife management and conservation. Although much of our research is focused on
-					carnivores, we work on a diversity of other taxa including birds, wild pigs, small mammals, and
-					invertebrates.</p>
-			</div>
-		</div>
-
-		<hr><!-- People Section -->
-
-		<div class="w3-container w3-padding-64" id="people">
-			<h1>People</h1>
-			<br>
-			<div class="grid-container">
-				<img src="./images/travis.jpg" class="w3-round w3-opacity-min" alt="travis" width="100%" height="auto">
-				<div>
-					<h5>Travis DeVault</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-						laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-						voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-						non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				</div>
-				<img src="./images/mary.webp" class="w3-round w3-opacity-min" alt="mary" width="100%" height="auto">
-				<div>
-					<h5>Mary Chapman</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-						laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-						voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-						non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				</div>
-				<img src="./images/shayna.webp" class="w3-round w3-opacity-min" alt="shayna" width="100%" height="auto">
-				<div>
-					<h5>Shayna Mun&#245;z</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-						laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-						voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-						non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				</div>
-				<img src="./images/carson.jpg" class="w3-round w3-opacity-min" alt="carson" width="100%" height="auto">
-				<div>
-					<h5>Carson Pakula</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-						laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-						voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-						non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				</div>
-				<img src="./images/shane.jpg" class="w3-round w3-opacity-min" alt="shane" width="100%" height="auto">
-				<div>
-					<h5>Shane Guenin</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-						laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-						voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-						non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				</div>
-				<img src="./images/jon.jpg" class="w3-round w3-opacity-min" alt="jon" width="100%" height="auto">
-				<div>
-					<h5>Jon Skaggs</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in oluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						<p style="color: grey">jskaggs@uga.edu</p>
-				</div>
-			</div>
-		</div>
-
-		<hr><!-- Research Section -->
-
-		<div class="w3-container w3-padding-64" id="research">
-			<h1>Research</h1>
-			<br>
-			<div class="grid-container">
-				<div>
-					<h3>Ecology of animal-vehicle interactions</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-						laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-						voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-						non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					<br>
-					<h3>Scavenger ecotoxicology</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-						laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-						voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-						non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					<br>
-					<h3>Heavy metal birds</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					<br>
-					<h4 style="color:grey"><a href="./reprint.html">Learn more</a></h4>
-				</div>
-				<div>
-					<img src="./images/book.jpg" class="w3-round w3-opacity-min" alt="book" width="80%" height="auto" style= "vertical-align: middle;">
-				</div>
+				<h1 class="w3-center">What We Do</h1>
+				<p class="w3-large">We apply interdisciplinary field and laboratory approaches to develop science-based solutions to wildlife management and conservation. Although much of our research is focused on carnivores, we work on a diversity of other taxa including birds, wild pigs, small mammals, and invertebrates.</p>
 			</div>
 		</div>
 		
-		<hr><!-- News section -->
+		<hr><!-- Where We Work -->
+
+		<div class="w3-row w3-padding-64" id="where">
+			<div class="w3-col m6 w3-padding-large w3-hide-small">
+				<img src="./images/where.png" class="w3-round w3-image w3-opacity-min" alt="where" width="auto" height="auto">
+			</div>
+			<div class="w3-col m6 w3-padding-large">
+				<h1 class="w3-center">Where We Work</h1>
+				<p class="w3-large">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in oluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
 		
-		<div class="w3-container w3-padding-64" id="news">
-		<h1>Lab News</h1>
-		<br>
+		<hr><!-- News section2 -->
+		
+		
+		
+		<div class="w3-row w3-padding-64" id="news">
+			<h1>Lab News</h1>
 			<div style="margin: 0 auto; width: 80%">
-				<a class="twitter-timeline" data-height="800" href="https://twitter.com/DevaultLab?ref_src=twsrc%5Etfw">Tweets by DevaultLab</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-			</div>
-		</div>
-				
-		<hr><!-- Contact Section -->
-
-		<div class="w3-container w3-padding-64" id="contact">
-			<h1>Contact</h1>
-			<br>
-			<h3>Excepteur sint occaecat</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in oluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
-			<h3>Prospective students</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in oluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
+				<a class="twitter-timeline" data-height="800" href="https://twitter.com/DevaultLab?ref_src=twsrc%5Etfw">Recent news</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+				</div>
 		</div>
 
 		<hr><!-- End page content -->
@@ -186,7 +94,6 @@
 	<!-- Footer -->
 
 	<footer class="w3-center w3-light-grey w3-padding-32">
-		<p>
 		<p>theme modified from <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank"
 				class="w3-hover-text-green">w3.css</a></p>
 	</footer>
